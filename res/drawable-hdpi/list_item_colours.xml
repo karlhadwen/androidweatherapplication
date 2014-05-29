@@ -1,0 +1,38 @@
+<!--****************************************************************-->
+<!-- Nigel's attempt at eye candy.                                  -->
+<!--                                                                -->
+<!-- © Nigel@soc.plymouth.ac.uk 2012.                               -->
+<!--****************************************************************-->
+
+<!--****************************************************************-->
+<!-- This XML doc defines a drawable layout for components that     -->
+<!-- don't have images on them.  This defines two colours, but can  -->
+<!-- also define gradient fills, and also rounded corners and stuff -->
+<!-- like that. 					                                -->
+<!--                                                                -->
+<!-- You will see that it also defines two states, pressed and      -->
+<!-- normal.  These states can apply to many components, not just   -->
+<!-- buttons.                                                       -->
+<!--****************************************************************-->
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item 
+        android:state_pressed="true" 
+        >
+        <shape>
+            <solid
+                android:color="#669900"
+                >
+            </solid>
+          </shape>
+    </item>
+    <item
+       android:state_pressed="false"
+        >
+        <shape>
+            <solid
+                android:color="#418dbe"
+                >
+            </solid>
+       </shape>
+    </item>
+</selector>

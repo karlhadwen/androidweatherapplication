@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">WeatherApplication</string>
+    <string name="menu_settings">Settings</string>
+	<string name="add_city">Add City</string>
+	<string name="menu_twitter">Tweet This Forecast</string>
+</resources>
